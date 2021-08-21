@@ -1,4 +1,3 @@
-
 body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 20px;
@@ -134,6 +133,12 @@ banner
 {
     background-color: rgba(12, 184, 182) !important;
 }
+#banner-journal {
+    background: url('../img/bg-banner-journal.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 650px;
+    position: relative;
+}
 #banner{
 	background: url('../img/bg-banner.jpg') no-repeat fixed;
 	background-size: cover;
@@ -143,6 +148,10 @@ banner
 .bg-color{
 	background-color: RGBA(13, 70, 83, 0.78);
 	min-height: 650px;
+}
+.bg-color-journal {
+    background-color: RGBA(13, 70, 83, 0.68);
+    min-height: 650px;
 }
 .banner-info{
 	padding-top: 190px;
